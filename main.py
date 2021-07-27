@@ -1,11 +1,10 @@
 import cv2
 import time
-import sys
 import argparse
 import numpy as np
-from src.carla import CarlaInstance
-from src.config import Config
-from src.viewer import Viewer
+from utils.carla import CarlaInstance
+from utils.config import Config
+from utils.viewer import Viewer
 
 
 class PedestrianDetector:
